@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="come.rome.BigramTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-08T21:31:41" hostname="rrafacz-mb.tech.norvax.net" time="0.0">
+  <properties/>
+  <testcase name="test bigrams results" classname="come.rome.BigramTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

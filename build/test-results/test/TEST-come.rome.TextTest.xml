@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="come.rome.TextTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-08T21:31:41" hostname="rrafacz-mb.tech.norvax.net" time="0.026">
+  <properties/>
+  <testcase name="testing reverseText function" classname="come.rome.TextTest" time="0.026"/>
+  <system-out><![CDATA[word: oyoy
+word: nam
+word: ko
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
