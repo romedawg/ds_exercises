@@ -10,7 +10,7 @@ public class Main {
         TextManipulation text = new TextManipulation();
         Utils userInput = new Utils();
 
-        System.out.println(text.countVowels(userInput.InputText("pass in string")));
+        System.out.println(text.removePunctuations(userInput.InputText("pass in string")));
 
     }
 }

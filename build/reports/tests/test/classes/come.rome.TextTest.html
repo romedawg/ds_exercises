@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">3</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.026s</div>
+<div class="counter">0.050s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,9 +79,21 @@
 </tr>
 </thead>
 <tr>
+<td class="success">test remove punctuations</td>
+<td class="success">removePunctuations()</td>
+<td class="success">0.027s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">testing reverseText function</td>
-<td class="success">testText()</td>
-<td class="success">0.026s</td>
+<td class="success">testReverstText()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testing vowelCount funciton</td>
+<td class="success">testVowelCount()</td>
+<td class="success">0.020s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -92,6 +104,270 @@
 <pre>word: oyoy
 word: nam
 word: ko
+wordList first item: B
+6
+character nu: 0 B non-match: !
+character nu: 0 B non-match: &quot;
+character nu: 0 B non-match: ,
+character nu: 0 B non-match: ]
+character nu: 0 B non-match: [
+character nu: 0 B non-match: :
+character nu: 0 B non-match: {
+character nu: 0 B non-match: }
+character nu: 0 B non-match: '
+character nu: 0 B non-match: ?
+character nu: 0 B non-match: '
+character nu: 1 l non-match: !
+character nu: 1 l non-match: &quot;
+character nu: 1 l non-match: ,
+character nu: 1 l non-match: ]
+character nu: 1 l non-match: [
+character nu: 1 l non-match: :
+character nu: 1 l non-match: {
+character nu: 1 l non-match: }
+character nu: 1 l non-match: '
+character nu: 1 l non-match: ?
+character nu: 1 l non-match: '
+character nu: 2 a non-match: !
+character nu: 2 a non-match: &quot;
+character nu: 2 a non-match: ,
+character nu: 2 a non-match: ]
+character nu: 2 a non-match: [
+character nu: 2 a non-match: :
+character nu: 2 a non-match: {
+character nu: 2 a non-match: }
+character nu: 2 a non-match: '
+character nu: 2 a non-match: ?
+character nu: 2 a non-match: '
+character nu: 3 h non-match: !
+character nu: 3 h non-match: &quot;
+character nu: 3 h non-match: ,
+character nu: 3 h non-match: ]
+character nu: 3 h non-match: [
+character nu: 3 h non-match: :
+character nu: 3 h non-match: {
+character nu: 3 h non-match: }
+character nu: 3 h non-match: '
+character nu: 3 h non-match: ?
+character nu: 3 h non-match: '
+character nu: 4 ! match: !
+character nu: 3 h non-match: !
+character nu: 3 h non-match: &quot;
+character nu: 3 h non-match: ,
+character nu: 3 h non-match: ]
+character nu: 3 h non-match: [
+character nu: 3 h non-match: :
+character nu: 3 h non-match: {
+character nu: 3 h non-match: }
+character nu: 3 h non-match: '
+character nu: 3 h non-match: ?
+character nu: 3 h non-match: '
+character nu: 4 ? non-match: !
+character nu: 4 ? non-match: &quot;
+character nu: 4 ? non-match: ,
+character nu: 4 ? non-match: ]
+character nu: 4 ? non-match: [
+character nu: 4 ? non-match: :
+character nu: 4 ? non-match: {
+character nu: 4 ? non-match: }
+character nu: 4 ? non-match: '
+character nu: 4 ? match: ?
+character nu: 3 h non-match: ?
+character nu: 3 h non-match: '
+wordList first item: t
+8
+character nu: 0 t non-match: !
+character nu: 0 t non-match: &quot;
+character nu: 0 t non-match: ,
+character nu: 0 t non-match: ]
+character nu: 0 t non-match: [
+character nu: 0 t non-match: :
+character nu: 0 t non-match: {
+character nu: 0 t non-match: }
+character nu: 0 t non-match: '
+character nu: 0 t non-match: ?
+character nu: 0 t non-match: '
+character nu: 1 u non-match: !
+character nu: 1 u non-match: &quot;
+character nu: 1 u non-match: ,
+character nu: 1 u non-match: ]
+character nu: 1 u non-match: [
+character nu: 1 u non-match: :
+character nu: 1 u non-match: {
+character nu: 1 u non-match: }
+character nu: 1 u non-match: '
+character nu: 1 u non-match: ?
+character nu: 1 u non-match: '
+character nu: 2 r non-match: !
+character nu: 2 r non-match: &quot;
+character nu: 2 r non-match: ,
+character nu: 2 r non-match: ]
+character nu: 2 r non-match: [
+character nu: 2 r non-match: :
+character nu: 2 r non-match: {
+character nu: 2 r non-match: }
+character nu: 2 r non-match: '
+character nu: 2 r non-match: ?
+character nu: 2 r non-match: '
+character nu: 3 k non-match: !
+character nu: 3 k non-match: &quot;
+character nu: 3 k non-match: ,
+character nu: 3 k non-match: ]
+character nu: 3 k non-match: [
+character nu: 3 k non-match: :
+character nu: 3 k non-match: {
+character nu: 3 k non-match: }
+character nu: 3 k non-match: '
+character nu: 3 k non-match: ?
+character nu: 3 k non-match: '
+character nu: 4 e non-match: !
+character nu: 4 e non-match: &quot;
+character nu: 4 e non-match: ,
+character nu: 4 e non-match: ]
+character nu: 4 e non-match: [
+character nu: 4 e non-match: :
+character nu: 4 e non-match: {
+character nu: 4 e non-match: }
+character nu: 4 e non-match: '
+character nu: 4 e non-match: ?
+character nu: 4 e non-match: '
+character nu: 5 y non-match: !
+character nu: 5 y non-match: &quot;
+character nu: 5 y non-match: ,
+character nu: 5 y non-match: ]
+character nu: 5 y non-match: [
+character nu: 5 y non-match: :
+character nu: 5 y non-match: {
+character nu: 5 y non-match: }
+character nu: 5 y non-match: '
+character nu: 5 y non-match: ?
+character nu: 5 y non-match: '
+character nu: 6 ' non-match: !
+character nu: 6 ' non-match: &quot;
+character nu: 6 ' non-match: ,
+character nu: 6 ' non-match: ]
+character nu: 6 ' non-match: [
+character nu: 6 ' non-match: :
+character nu: 6 ' non-match: {
+character nu: 6 ' non-match: }
+character nu: 6 ' match: '
+character nu: 5 y non-match: '
+character nu: 5 y non-match: ?
+character nu: 5 y non-match: '
+character nu: 6 s non-match: !
+character nu: 6 s non-match: &quot;
+character nu: 6 s non-match: ,
+character nu: 6 s non-match: ]
+character nu: 6 s non-match: [
+character nu: 6 s non-match: :
+character nu: 6 s non-match: {
+character nu: 6 s non-match: }
+character nu: 6 s non-match: '
+character nu: 6 s non-match: ?
+character nu: 6 s non-match: '
+wordList first item: [
+10
+character nu: 0 [ non-match: !
+character nu: 0 [ non-match: &quot;
+character nu: 0 [ non-match: ,
+character nu: 0 [ non-match: ]
+character nu: 0 [ match: [
+character nu: 0 b non-match: [
+character nu: 0 b non-match: :
+character nu: 0 b non-match: {
+character nu: 0 b non-match: }
+character nu: 0 b non-match: '
+character nu: 0 b non-match: ?
+character nu: 0 b non-match: '
+character nu: 1 r non-match: !
+character nu: 1 r non-match: &quot;
+character nu: 1 r non-match: ,
+character nu: 1 r non-match: ]
+character nu: 1 r non-match: [
+character nu: 1 r non-match: :
+character nu: 1 r non-match: {
+character nu: 1 r non-match: }
+character nu: 1 r non-match: '
+character nu: 1 r non-match: ?
+character nu: 1 r non-match: '
+character nu: 2 a non-match: !
+character nu: 2 a non-match: &quot;
+character nu: 2 a non-match: ,
+character nu: 2 a non-match: ]
+character nu: 2 a non-match: [
+character nu: 2 a non-match: :
+character nu: 2 a non-match: {
+character nu: 2 a non-match: }
+character nu: 2 a non-match: '
+character nu: 2 a non-match: ?
+character nu: 2 a non-match: '
+character nu: 3 c non-match: !
+character nu: 3 c non-match: &quot;
+character nu: 3 c non-match: ,
+character nu: 3 c non-match: ]
+character nu: 3 c non-match: [
+character nu: 3 c non-match: :
+character nu: 3 c non-match: {
+character nu: 3 c non-match: }
+character nu: 3 c non-match: '
+character nu: 3 c non-match: ?
+character nu: 3 c non-match: '
+character nu: 4 k non-match: !
+character nu: 4 k non-match: &quot;
+character nu: 4 k non-match: ,
+character nu: 4 k non-match: ]
+character nu: 4 k non-match: [
+character nu: 4 k non-match: :
+character nu: 4 k non-match: {
+character nu: 4 k non-match: }
+character nu: 4 k non-match: '
+character nu: 4 k non-match: ?
+character nu: 4 k non-match: '
+character nu: 5 e non-match: !
+character nu: 5 e non-match: &quot;
+character nu: 5 e non-match: ,
+character nu: 5 e non-match: ]
+character nu: 5 e non-match: [
+character nu: 5 e non-match: :
+character nu: 5 e non-match: {
+character nu: 5 e non-match: }
+character nu: 5 e non-match: '
+character nu: 5 e non-match: ?
+character nu: 5 e non-match: '
+character nu: 6 t non-match: !
+character nu: 6 t non-match: &quot;
+character nu: 6 t non-match: ,
+character nu: 6 t non-match: ]
+character nu: 6 t non-match: [
+character nu: 6 t non-match: :
+character nu: 6 t non-match: {
+character nu: 6 t non-match: }
+character nu: 6 t non-match: '
+character nu: 6 t non-match: ?
+character nu: 6 t non-match: '
+character nu: 7 s non-match: !
+character nu: 7 s non-match: &quot;
+character nu: 7 s non-match: ,
+character nu: 7 s non-match: ]
+character nu: 7 s non-match: [
+character nu: 7 s non-match: :
+character nu: 7 s non-match: {
+character nu: 7 s non-match: }
+character nu: 7 s non-match: '
+character nu: 7 s non-match: ?
+character nu: 7 s non-match: '
+character nu: 8 ] non-match: !
+character nu: 8 ] non-match: &quot;
+character nu: 8 ] non-match: ,
+character nu: 8 ] match: ]
+character nu: 7 s non-match: ]
+character nu: 7 s non-match: [
+character nu: 7 s non-match: :
+character nu: 7 s non-match: {
+character nu: 7 s non-match: }
+character nu: 7 s non-match: '
+character nu: 7 s non-match: ?
+character nu: 7 s non-match: '
 </pre>
 </span>
 </div>
@@ -103,7 +379,7 @@ word: ko
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.1</a> at Feb 8, 2022, 3:31:41 PM</p>
+<a href="http://www.gradle.org">Gradle 7.1</a> at Feb 14, 2022, 6:59:22 PM</p>
 </div>
 </div>
 </body>

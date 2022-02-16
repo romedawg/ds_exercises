@@ -1,7 +1,10 @@
 package com.rome.exercises;
 
+
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
+import java.util.LinkedList;
+import java.util.List;
 
 /*
 # EXAMPLE USAGE.
@@ -24,7 +27,7 @@ public class TextManipulation {
         char[] wordArray = word.toCharArray();
         for (int i = 0; i < wordArray.length; i++) {
             char x = wordArray[i];
-            if ( matchCharacters(x, vowels) ){
+            if ( matchChars(x, vowels) ){
                 vowelCount++;
             }
         }
@@ -52,15 +55,50 @@ public class TextManipulation {
         return reversedString.toString();
     }
 
-    private boolean matchCharacters(char character, char[] StringArray){
+    // TODO
+    /*
+    8 A common punishment for school children is to write out a sentence multiple
+    times. Write a Java stand-alone program that will write out the following sentence one hundred times: “I will never spam my friends again.” Your program
+    should number each of the sentences and it should make eight different random looking typos.
+     */
+    public void printSentences(){
+        Integer count;
+        String line = "I will never spam my friends again.";
+        System.out.println();
+    }
 
-        for (int i = 0; i < StringArray.length; i++) {
-            if (character == StringArray[i]){
-                return true;
+    public String removePunctuations(String word){
+
+        String[] punctuations = {"!", String.valueOf('"'),",", "]", "[", ":", "{", "}", "'","?", "'"};
+        String[] wordArray = word.split("");
+        LinkedList<String> wordList = new LinkedList<String>(Arrays.asList(wordArray));
+        System.out.println("wordList first item: " + wordList.get(0));
+        System.out.println(wordList.size());
+        for (int i = 0; i < wordList.size(); i++) {
+            for (int j = 0; j < punctuations.length; j++) {
+                if (wordList.get(i).equals(punctuations[j])) {
+                    wordList.remove(wordList.get(i));
+                    // As words get removed, string items in the list shift, reduce the int to not miss them!
+                    if (!(i ==0)) {
+                        i--;
+                    }
+                }
             }
         }
 
+        return String.join("",wordList);
+
+    }
+
+    private boolean matchChars(char character, char[] charArray){
+
+        for (int i = 0; i < charArray.length; i++) {
+            if (character == charArray[i]){
+                return true;
+            }
+        }
         return false;
     }
+
 }
 
