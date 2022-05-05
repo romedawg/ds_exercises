@@ -1,6 +1,6 @@
 package come.rome;
 
-import com.rome.exercises.TextManipulation;
+import com.rome.exercises.text.TextManipulation;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

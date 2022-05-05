@@ -1,4 +1,4 @@
-package com.rome.exercises;
+package com.rome.exercises.text;
 
 
 import java.util.ArrayList;

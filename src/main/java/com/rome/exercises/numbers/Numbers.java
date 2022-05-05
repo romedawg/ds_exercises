@@ -1,4 +1,4 @@
-package com.rome.exercises;
+package com.rome.exercises.numbers;
 
 public class Numbers {
 
