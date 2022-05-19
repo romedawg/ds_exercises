@@ -18,40 +18,64 @@ public class GooseIsland {
     // [1,2,1,2,1,2,3] => [3,1,1,1,2,2,2]
     //
     // Your test cases must pass, and you must sort the array in place.
+
+/* Testing in Main
+
+    int[] threeOneTwo1 = {1,3,1,2,3};
+    int[] threeOneTwo2 = {1,2,3};
+    int[] threeOneTwo3 = {2,1,3};
+    int[] threeOneTwo4 = {1,1,1,2,2,2,3,3,3};
+    int[] threeOneTwo5 = {1,2,1,2,1,2,3};
+
+        System.out.println("pre sort: 1 " + Arrays.toString(threeOneTwo1));
+    int[] result1 = GooseIsland.sortIt(threeOneTwo1);
+        System.out.println("post sort: 1 " + Arrays.toString(result1));
+
+        System.out.println("pre sort: 2 " + Arrays.toString(threeOneTwo2));
+    int[] result2 = GooseIsland.sortIt(threeOneTwo2);
+        System.out.println("post sort: 2 " + Arrays.toString(result2));
+
+        System.out.println("pre sort: 3 " + Arrays.toString(threeOneTwo3));
+    int[] result3 = GooseIsland.sortIt(threeOneTwo3);
+        System.out.println("post sort: 3 " + Arrays.toString(result3));
+
+        System.out.println("pre sort: 4 " + Arrays.toString(threeOneTwo4));
+    int[] result4 = GooseIsland.sortIt(threeOneTwo4);
+        System.out.println("post sort: 4 " + Arrays.toString(result4));
+
+        System.out.println("pre sort: 5 " + Arrays.toString(threeOneTwo5));
+    int[] result5 = GooseIsland.sortIt(threeOneTwo5);
+        System.out.println("post sort: 5 " + Arrays.toString(result5) );
+        System.out.println("type: " + result5.getClass());
+
+ */
     public static int[] sortIt(int[] arr) {
 
-        for (int n = 0; n < arr.length; n++){
-//            System.out.println("iter num: "+n + " index array num: " + arr[n]);
+
+        for (int n = 0; n < arr.length; n++) {
             int val = arr[n];
-            if (arr[n] == 3){
-                if (n == 0 || arr[n-1] == 3){
+            if (arr[n] == 3) {
+                if (n == 0 || arr[n - 1] == 3) {
                     continue;
-                }else{
-//                    System.out.println("shifting things around, pre-adjustment: " + Arrays.toString(arr));
-//                    System.out.println("one index behind " + (n-1) + " value is: " + arr[n-1] );
-//                    System.out.println("current index " + n + " value is: " + arr[n]);
-                    arr[n] = arr[n-1];
-                    arr[n-1] = val;
-//                    System.out.println("shifting things around, post-adjustment: " + Arrays.toString(arr));
-                    n=0;
+                } else {
+                    arr[n] = arr[n - 1];
+                    arr[n - 1] = val;
+                    n = 0;
                 }
-            }else if (arr[n] == 2){
-//                if (arr[n+1] == 2) {
-                if (n == (arr.length-1) || arr[n+1] == 2) {
+            } else if (arr[n] == 2) {
+                if (n == (arr.length - 1) || arr[n + 1] == 2) {
                     continue;
-                }else {
-//                    System.out.println("shifting things around, pre-adjustment: " + Arrays.toString(arr));
-//                    System.out.println("one index ahead " + (n+1) + " value is: " + arr[n+1]);
-//                    System.out.println("current index " + n + " value is: " + arr[n]);
-                    arr[n] = arr[n+1];
-                    arr[n+1] = val;
-//                    System.out.println("shifting things around, post-adjustment: " + Arrays.toString(arr));
-                    n=0;
+                } else {
+                    arr[n] = arr[n + 1];
+                    arr[n + 1] = val;
+                    n = 0;
                 }
             }
         }
 
         return arr;
     }
+
+
 
 }

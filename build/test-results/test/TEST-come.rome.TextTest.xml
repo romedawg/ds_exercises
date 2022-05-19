@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="come.rome.TextTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-18T22:01:37" hostname="Romans-MacBook-Pro.local" time="0.025">
+<testsuite name="come.rome.TextTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-06-09T19:28:12" hostname="Romans-MacBook-Pro.local" time="0.009">
   <properties/>
-  <testcase name="testing vowelCount funciton" classname="come.rome.TextTest" time="0.016"/>
+  <testcase name="testing vowelCount funciton" classname="come.rome.TextTest" time="0.001"/>
   <testcase name="testing reverseText function" classname="come.rome.TextTest" time="0.006"/>
-  <testcase name="test remove punctuations" classname="come.rome.TextTest" time="0.002"/>
+  <testcase name="test remove punctuations" classname="come.rome.TextTest" time="0.001"/>
   <system-out><![CDATA[word: oyoy
 word: nam
 word: ko

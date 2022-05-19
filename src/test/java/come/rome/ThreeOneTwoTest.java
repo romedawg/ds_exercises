@@ -27,10 +27,10 @@ public class ThreeOneTwoTest {
     void testSort312(){
         int[] threeOneTwo2 = {1,2,3};
         int[] bb = {3,1,2};
-        Assertions.assertEquals(bb, gooseIsland.sortIt(threeOneTwo2), "testing 3, 1, 2");
-        Assertions.assertEquals(new int[]{3,1,2}, gooseIsland.sortIt(new int[]{1,2,3}), "testing 1,2,3");
-        Assertions.assertEquals(new int[]{3,1,2}, gooseIsland.sortIt(new int[]{2,3,1}), "testing 2,1,3");
-        Assertions.assertEquals(new int[]{3,3,3,1,1,1,2,2,2}, gooseIsland.sortIt(new int[]{1,1,1,2,2,2,3,3,3}), "testing 1,1,1,2,2,2,3,3,3");
-        Assertions.assertEquals(new int[]{3,1,1,1,2,2,2}, gooseIsland.sortIt(new int[]{1,2,1,2,1,2,3}), "testing 3,3,3,1,1,1,2,2,2");
+        Assertions.assertArrayEquals(bb, gooseIsland.sortIt(threeOneTwo2), "testing 3, 1, 2");
+        Assertions.assertArrayEquals(new int[]{3,1,2}, gooseIsland.sortIt(new int[]{1,2,3}), "testing 1,2,3");
+        Assertions.assertArrayEquals(new int[]{3,1,2}, gooseIsland.sortIt(new int[]{2,3,1}), "testing 2,1,3");
+        Assertions.assertArrayEquals(new int[]{3,3,3,1,1,1,2,2,2}, gooseIsland.sortIt(new int[]{1,1,1,2,2,2,3,3,3}), "testing 1,1,1,2,2,2,3,3,3");
+        Assertions.assertArrayEquals(new int[]{3,1,1,1,2,2,2}, gooseIsland.sortIt(new int[]{1,2,1,2,1,2,3}), "testing 3,3,3,1,1,1,2,2,2");
     }
 }

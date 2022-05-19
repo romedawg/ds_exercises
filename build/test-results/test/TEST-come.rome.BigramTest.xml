@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="come.rome.BigramTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-18T22:01:37" hostname="Romans-MacBook-Pro.local" time="0.001">
+<testsuite name="come.rome.BigramTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-09T19:28:12" hostname="Romans-MacBook-Pro.local" time="0.0">
   <properties/>
-  <testcase name="test bigrams results" classname="come.rome.BigramTest" time="0.001"/>
+  <testcase name="test bigrams results" classname="come.rome.BigramTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

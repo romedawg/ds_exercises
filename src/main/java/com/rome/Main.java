@@ -2,11 +2,9 @@ package com.rome;
 
 
 
-import com.rome.exercises.numbers.GooseIsland;
-import com.rome.exercises.numbers.Numbers;
+import com.rome.exercises.LinkedList.LinkedList;
 
 import java.io.*;
-import java.util.Arrays;
 
 
 public class Main {
@@ -21,38 +19,105 @@ public class Main {
 //        System.out.println(text.removePunctuations(userInput.InputText("pass in string")));
 
 
-//        GooseIsland numbers = new Numbers.s;
-        // [3,1,2] => [3,1,2]
-        // [1,2,3] => [3,1,2]
-        // [2,1,3] => [3,1,2]
-        // [1,1,1,2,2,2,3,3,3] => [3,3,3,1,1,1,2,2,2]
-        // [1,2,1,2,1,2,3] => [3,1,1,1,2,2,2]
-        int[] threeOneTwo1 = {1,3,1,2,3};
-        int[] threeOneTwo2 = {1,2,3};
-        int[] threeOneTwo3 = {2,1,3};
-        int[] threeOneTwo4 = {1,1,1,2,2,2,3,3,3};
-        int[] threeOneTwo5 = {1,2,1,2,1,2,3};
 
-//        System.out.println("pre sort: 1 " + Arrays.toString(threeOneTwo1));
-//        int[] result1 = GooseIsland.sortIt(threeOneTwo1);
-//        System.out.println("post sort: 1 " + Arrays.toString(result1));
-//
-//        System.out.println("pre sort: 2 " + Arrays.toString(threeOneTwo2));
-//        int[] result2 = GooseIsland.sortIt(threeOneTwo2);
-//        System.out.println("post sort: 2 " + Arrays.toString(result2));
-//
-//        System.out.println("pre sort: 3 " + Arrays.toString(threeOneTwo3));
-//        int[] result3 = GooseIsland.sortIt(threeOneTwo3);
-//        System.out.println("post sort: 3 " + Arrays.toString(result3));
+        /*
+         size() - returns number of data elements in list
+         empty() - bool returns true if empty
+         value_at(index) - returns the value of the nth item (starting at 0 for first)
+         push_front(value) - adds an item to the front of the list
+         pop_front() - remove front item and return its value
+         push_back(value) - adds an item at the end
+         pop_back() - removes end item and returns its value
+         front() - get value of front item
+         back() - get value of end item
+         insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+         erase(index) - removes node at given index
+         value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+         reverse() - reverses the list
+         remove_value(value) - removes the first item in the list with this value
+         */
+        // Testing Linked List
+        String[] myArray = new String[]{"one"};
+        LinkedList linkedList = new LinkedList();
 
-        System.out.println("pre sort: 4 " + Arrays.toString(threeOneTwo4));
-        int[] result4 = GooseIsland.sortIt(threeOneTwo4);
-        System.out.println("post sort: 4 " + Arrays.toString(result4));
+        System.out.println("Size: " + linkedList.Size());
+        System.out.println("Empty: " + linkedList.isEmpty());
 
-        System.out.println("pre sort: 5 " + Arrays.toString(threeOneTwo5));
-        int[] result5 = GooseIsland.sortIt(threeOneTwo5);
-        System.out.println("post sort: 5 " + Arrays.toString(result5) );
-        System.out.println("type: " + result5.getClass());
+        // [1,2,3] - by the end
+        linkedList.append(1);
+        System.out.println("Size: " + linkedList.Size());
+        System.out.println("Value: " + linkedList.valueAt(0));
+        linkedList.append(2);
+        System.out.println("Empty: " + linkedList.isEmpty());
+        System.out.println("Size: " + linkedList.Size());
+        System.out.println("Value: " + linkedList.valueAt(1));
+        linkedList.append(3);
+        System.out.println("Size: " + linkedList.Size());
+        System.out.println("Value: " + linkedList.valueAt(2));
 
+        // PopBack - [1,2] - by the end
+        System.out.println("popping items off list value should be 3");
+        System.out.println(linkedList.popBack());
+        System.out.println("Size: " + linkedList.Size());
+        System.out.println("Value: " + linkedList.valueAt(0));
+        System.out.println("Value: " + linkedList.valueAt(1));
+
+        // front/backup items - [1,2] - by the end
+        System.out.println("get front item val");
+        System.out.println("front val: " + linkedList.front());
+        System.out.println("get back item val");
+        System.out.println("back val: " + linkedList.back());
+
+        // PopFront - should be 2 - [2] - by the end
+        System.out.println("popping items off list from front");
+        System.out.println(linkedList.popFront());
+        System.out.println("Size: " + linkedList.Size());
+        System.out.println("Value: " + linkedList.valueAt(0));
+
+        // PushFront - should be [3,2]
+        System.out.println("pushing items to the front");
+        linkedList.pushFront(3);
+        System.out.println("Size: " + linkedList.Size());
+        System.out.println("Value: " + linkedList.valueAt(0));
+        System.out.println("Value: " + linkedList.valueAt(1));
+
+        // PushFront - should be [3,2,6] by end
+        System.out.println("pushing items to the front");
+        linkedList.pushBack(6);
+        System.out.println("Size: " + linkedList.Size());
+        System.out.println("Value: " + linkedList.valueAt(0));
+        System.out.println("Value: " + linkedList.valueAt(1));
+        System.out.println("Value: " + linkedList.valueAt(2));
+
+        // removeValue - should remove first time from list, size should be 2, value should be 2
+        // PushFront - should be [3,2,6] coming in, [3,6,5,4] coming out
+        System.out.println("checking size/val before is " + linkedList.Size());
+        System.out.println("Value: " + linkedList.valueAt(0));
+        System.out.println("Value: " + linkedList.valueAt(1));
+        System.out.println("Value: " + linkedList.valueAt(2));
+        linkedList.append(5);
+        linkedList.append(4);
+        System.out.println("checking size/vals after apends " + linkedList.Size());
+        System.out.println("Value: " + linkedList.valueAt(0));
+        System.out.println("Value: " + linkedList.valueAt(1));
+        System.out.println("Value: " + linkedList.valueAt(2));
+        System.out.println("Value: " + linkedList.valueAt(3));
+        System.out.println("Value: " + linkedList.valueAt(4));
+        System.out.println("removing an item to the front, size before is " + linkedList.Size());
+        linkedList.erase(1);
+        System.out.println("Size: " + linkedList.Size());
+        System.out.println("Value: " + linkedList.valueAt(0));
+        System.out.println("Value: " + linkedList.valueAt(1));
+        System.out.println("Value: " + linkedList.valueAt(2));
+        System.out.println("Value: " + linkedList.valueAt(3));
+
+        // erase_value - removes the first item in the list with this value
+        // before [3,6,5,4] coming in - [3,6,4] coming out
+        System.out.println("removing an item to the front, size before is " + linkedList.Size());
+        linkedList.removeValue(5);
+        System.out.println("Size: " + linkedList.Size());
+        System.out.println("Value: " + linkedList.valueAt(0));
+        System.out.println("Value: " + linkedList.valueAt(1));
+        System.out.println("Value: " + linkedList.valueAt(2));
     }
 }

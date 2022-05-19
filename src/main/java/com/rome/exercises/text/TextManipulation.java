@@ -85,9 +85,7 @@ public class TextManipulation {
                 }
             }
         }
-
         return String.join("",wordList);
-
     }
 
     private boolean matchChars(char character, char[] charArray){
