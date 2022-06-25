@@ -15,7 +15,7 @@ package com.rome.exercises.LinkedList;
        DONE - erase(index) - removes node at given index
    value_n_from_end(n) - returns the value of the node at nth position from the end of the list
    reverse() - reverses the list
-   DONE - remove_value(value) - removes the first item in the list with this value
+       DONE - remove_value(value) - removes the first item in the list with this value
    */
 public class LinkedList {
 
@@ -155,6 +155,7 @@ public class LinkedList {
         for (int i = 0; i < list.length; i++) {
             if (i != index){
                 listy[index_counter] = list[i];
+                listy[index_counter].next = list[index_counter+1];
                 index_counter++;
             }
         }
@@ -175,6 +176,12 @@ public class LinkedList {
         }
         erase(index);
     }
+
+    // insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+    public void insert(){
+        
+    }
+
 
     public int front(){
         return list[0].value;

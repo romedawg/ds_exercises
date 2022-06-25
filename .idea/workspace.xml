@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2b3d2ad-cbce-48ea-9434-5d538e0d9bbd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/Bracket2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/StackWithMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/check_brackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/process_packages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/tree_height.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/week1_basic_data_structures.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -12,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/rome/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/LinkedList/LinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/ds_algo_exercises-1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/ds_algo_exercises-1.jar" afterDir="false" />
@@ -27,6 +34,7 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.ThreeOneTwoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.ThreeOneTwoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rome/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rome/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rome/exercises/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rome/exercises/LinkedList/LinkedList.java" afterDir="false" />
     </list>
@@ -96,7 +104,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/exercises/numbers/GooseIsland.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/33987872a811fe4d4001ed494b07854822257f42/junit-4.13.2-sources.jar!/org/junit/Assert.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/exercises/text/TextManipulation.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/exercises/LinkedList/LinkedList.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/Main.java" root0="FORCE_HIGHLIGHTING" />
@@ -109,6 +116,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28WDlLPLnPdGDmaNy4JHILhqztf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -129,6 +139,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/rome/courseraDS" />
       <recent name="$PROJECT_DIR$/src/main/java/com/rome" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -228,7 +240,9 @@
       <workItem from="1652910514918" duration="10416000" />
       <workItem from="1653448846518" duration="2423000" />
       <workItem from="1654014832780" duration="19175000" />
-      <workItem from="1654656953974" duration="11499000" />
+      <workItem from="1654656953974" duration="12481000" />
+      <workItem from="1655917305530" duration="2745000" />
+      <workItem from="1656011798894" duration="10211000" />
     </task>
     <servers />
   </component>
