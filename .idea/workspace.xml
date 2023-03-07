@@ -5,38 +5,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2b3d2ad-cbce-48ea-9434-5d538e0d9bbd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/Bracket2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/StackWithMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/check_brackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/process_packages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/tree_height.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/week1_basic_data_structures.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rome/exercises/DynamicArray/DynamicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/come/rome/DynamicArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/rome/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/LinkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/ds_algo_exercises-1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/ds_algo_exercises-1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/come.rome.BigramTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/come.rome.BigramTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/come.rome.PaladromeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/come.rome.PaladromeTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/come.rome.TextTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/come.rome.TextTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/come.rome.ThreeOneTwoTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/come.rome.ThreeOneTwoTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/come.rome.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/come.rome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.BigramTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.BigramTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.PaladromeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.PaladromeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.TextTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.TextTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.ThreeOneTwoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.ThreeOneTwoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Buffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/StackWithMax$FastScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/StackWithMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/Jackson_testing/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/courseraDS/week1/Bracket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/courseraDS/week1/Bracket2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/courseraDS/week1/check_brackets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/Bigrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/LinkedList/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/LinkedList/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/SalesCalculator/Inventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/SalesCalculator/SalesCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/numbers/GooseIsland.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/numbers/Numbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/sorting/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/text/Paladrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/text/TextManipulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/rome/exercises/utils/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/process_packages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tree_height$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tree_height$FastScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tree_height$TreeHeight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tree_height.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/come/rome/BigramTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/come/rome/PaladromeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/come/rome/TextTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/come/rome/ThreeOneTwoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/ds_algo_exercises-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/come.rome.BigramTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/come.rome.PaladromeTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/come.rome.TextTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/come.rome.ThreeOneTwoTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/come.rome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/ArraySort.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/ExcelSelector.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/Palidrome.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.BigramTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.PaladromeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.TextTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-come.rome.ThreeOneTwoTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rome/Jackson_testing/Product.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rome/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rome/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/check_brackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1/check_brackets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rome/exercises/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rome/exercises/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/come/rome/TextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/come/rome/TextTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +150,14 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/exercises/numbers/GooseIsland.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/exercises/text/TextManipulation.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/exercises/LinkedList/LinkedList.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/Main.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/exercises/numbers/Numbers.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/build.gradle" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/exercises/text/Paladrome.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-1.8.0_322/Contents/Home/src.zip!/java/util/Map.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/build.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/exercises/LinkedList/LinkedList.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/exercises/numbers/GooseIsland.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/exercises/numbers/Numbers.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/exercises/text/Paladrome.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/rome/exercises/text/TextManipulation.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -123,20 +170,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="go.format.on.save.advertiser.fired" value="true" />
-    <property name="go.formatter.settings.were.checked" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/rome/courseraDS/week1" />
@@ -147,7 +198,7 @@
       <recent name="come.rome" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreeOneTwoTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rome.Main" />
       <module name="ds_algo_exercises.main" />
@@ -173,6 +224,25 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="ds_algo_exercises" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="ds_algo_exercises" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
     </configuration>
     <configuration name="ds_algo_exercises [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -218,10 +288,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.ds_algo_exercises [jar]" />
         <item itemvalue="Gradle.ds_algo_exercises [build]" />
         <item itemvalue="Application.ThreeOneTwoTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +312,14 @@
       <workItem from="1654014832780" duration="19175000" />
       <workItem from="1654656953974" duration="12481000" />
       <workItem from="1655917305530" duration="2745000" />
-      <workItem from="1656011798894" duration="10211000" />
+      <workItem from="1656011798894" duration="13397000" />
+      <workItem from="1669047447880" duration="874000" />
+      <workItem from="1673283674972" duration="599000" />
+      <workItem from="1677258067121" duration="2519000" />
+      <workItem from="1678139944704" duration="2871000" />
+      <workItem from="1678145201059" duration="758000" />
+      <workItem from="1678147550518" duration="2191000" />
+      <workItem from="1678152679377" duration="8114000" />
     </task>
     <servers />
   </component>
@@ -259,5 +336,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

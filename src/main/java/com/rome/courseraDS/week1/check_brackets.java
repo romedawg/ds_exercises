@@ -56,15 +56,22 @@ class check_brackets {
         }
         for (int i = 0; i < opening_brackets_stack.size(); i=i+2) {
             Bracket b = opening_brackets_stack.pop();
+            System.out.println(b.type);
             while (!opening_brackets_stack.isEmpty()){
                 Bracket b2 = opening_brackets_stack.pop();
                 if (!b2.Match(b.type)){
-                    System.out.println(b.position+1);
-                    return;
+                    Bracket b3 = opening_brackets_stack.pop();
+                    if (!b3.Match(b2.type)){
+                        System.out.println(b2.position+1);
+                        return;
+                    }
                 }
-                System.out.println("pass");
+
             }
             System.out.println("Success");
         }
     }
 }
+
+// 1st - ([])
+// 2nd failure - {[]}()

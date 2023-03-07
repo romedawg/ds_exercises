@@ -2,7 +2,8 @@ package com.rome;
 
 
 
-import com.rome.courseraDS.week1.Bracket2;
+
+import com.rome.exercises.DynamicArray.DynamicArray;
 
 import java.io.*;
 import java.util.Stack;
@@ -12,49 +13,24 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException {
-        InputStreamReader input_stream = new InputStreamReader(System.in);
-        BufferedReader reader = new BufferedReader(input_stream);
-        String text = reader.readLine();
+        // Standard input
+//        InputStreamReader input_stream = new InputStreamReader(System.in);
+//        BufferedReader reader = new BufferedReader(input_stream);
+//        String text = reader.readLine();
 
-        Stack<Bracket2> opening_brackets_stack = new Stack<Bracket2>();
-        for (int position = 0; position < text.length(); ++position) {
-            char next = text.charAt(position);
 
-            if (next == '(' || next == '[' || next == '{') {
-                // Process opening bracket, write your code here
-                Bracket2 b = new Bracket2(next, position);
-                b.type = next;
-                opening_brackets_stack.push(b);
-            }
-
-            if (next == ')' || next == ']' || next == '}') {
-                // Process closing bracket, write your code here
-                Bracket2 b = new Bracket2(next, position);
-                b.type = next;
-                opening_brackets_stack.push(b);
-            }
-
-        }
-
-        // Printing answer, write your code here
-        if (opening_brackets_stack.size() == 1){
-            System.out.println(opening_brackets_stack.size());
-            return;
-        }
-        for (int i = 0; i < opening_brackets_stack.size(); i=i+2) {
-            Bracket2 b = opening_brackets_stack.pop();
-            while (!opening_brackets_stack.isEmpty()){
-                Bracket2 b2 = opening_brackets_stack.pop();
-                System.out.println("bracket " + b.type);
-                System.out.println("bracket " + b2.type);
-                if (!b2.Match(b.type)){
-                    System.out.println(b.position+1);
-                    return;
-                }
-            }
-            System.out.println("success");
-        }
+        DynamicArray dynamicArray = new DynamicArray("a");
+        System.out.println(dynamicArray.Get(0));
+        System.out.println(dynamicArray.Size());
+        dynamicArray.Add("b");
+        System.out.println(dynamicArray.Get(1));
+        System.out.println(dynamicArray.Size());
+        dynamicArray.Add("c");
+        System.out.println(dynamicArray.Get(2));
+        System.out.println(dynamicArray.Size());
+        System.out.println(dynamicArray.getCapacity());
     }
+
 }
 
 //    public static void main(String[] args) throws  FileNotFoundException {

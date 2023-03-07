@@ -34,7 +34,7 @@ public class TextTest {
     @Test
     @DisplayName("test remove punctuations")
     void removePunctuations(){
-        Assertions.assertEquals("Blah", text.removePunctuations("Blah!?"), "testing blah!?");
+        Assertions.assertEquals("Blah", text.removePunctuations("Blah!?"), "testing Blah!?");
         Assertions.assertEquals("turkeys", text.removePunctuations("turkey's"), "testing turkey's");
         Assertions.assertEquals("brackets", text.removePunctuations("[brackets]"), "testing turkey's");
     }

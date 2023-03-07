@@ -178,10 +178,7 @@ public class LinkedList {
     }
 
     // insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-    public void insert(){
-        
-    }
-
+    public void insert(){}
 
     public int front(){
         return list[0].value;
